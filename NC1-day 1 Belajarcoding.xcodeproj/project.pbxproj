@@ -12,6 +12,8 @@
 		68636CA2228B9CCB00A6A259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68636CA0228B9CCB00A6A259 /* Main.storyboard */; };
 		68636CA4228B9CCC00A6A259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68636CA3228B9CCC00A6A259 /* Assets.xcassets */; };
 		68636CA7228B9CCC00A6A259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68636CA5228B9CCC00A6A259 /* LaunchScreen.storyboard */; };
+		68636CAF228BA88B00A6A259 /* LearnedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68636CAE228BA88B00A6A259 /* LearnedModel.swift */; };
+		68636CD1228BC52500A6A259 /* Fasilitator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68636CD0228BC52500A6A259 /* Fasilitator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		68636CA3228B9CCC00A6A259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68636CA6228B9CCC00A6A259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68636CA8228B9CCC00A6A259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68636CAE228BA88B00A6A259 /* LearnedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedModel.swift; sourceTree = "<group>"; };
+		68636CD0228BC52500A6A259 /* Fasilitator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fasilitator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				68636CA3228B9CCC00A6A259 /* Assets.xcassets */,
 				68636CA5228B9CCC00A6A259 /* LaunchScreen.storyboard */,
 				68636CA8228B9CCC00A6A259 /* Info.plist */,
+				68636CAE228BA88B00A6A259 /* LearnedModel.swift */,
+				68636CD0228BC52500A6A259 /* Fasilitator.swift */,
 			);
 			path = "NC1-day 1 Belajarcoding";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68636C9F228B9CCB00A6A259 /* ViewController.swift in Sources */,
+				68636CAF228BA88B00A6A259 /* LearnedModel.swift in Sources */,
+				68636CD1228BC52500A6A259 /* Fasilitator.swift in Sources */,
 				68636C9D228B9CCB00A6A259 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,14 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var AgeLabel: UILabel!
+    @IBOutlet weak var TinggiLabel: UILabel!
+    @IBOutlet weak var PhotoImage: UIImageView!
+    var Person: LearnedModel?
+    var guru: Fasilitotar?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("gua ganteng")
-        print("HAHAHAH")
+        Person = LearnedModel(name: "Louis", age: 17, Heigt: 170.0, Photo: "")
+        guru = Fasilitotar(name: "valen", age: 18, Heigt: 180, Photo: "", perk: "ganteng")
+        UpdateUI()
+        
+    }
+    
+    
+    func UpdateUI()  {
+        if let instance = Person{
+            nameLabel.text = instance.name
+            AgeLabel.text = String(instance.age)
+            TinggiLabel.text = String(instance.height)
+        }
     }
 
-
+    @IBAction func UlanTahunButton(_ sender: Any) {
+        if let instance = Person{
+            instance.Ulangtahun()
+            AgeLabel.text = String(instance.age)
+        }
+        
+    }
+    
 }
 
